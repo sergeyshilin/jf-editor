@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ACE in Action</title>
+    <style type="text/css" media="screen">
+        #editor { 
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+    <script src="ace/ace.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="editor">package welcome.to.JavaFiddle;
+
+/**
+ * This is a brief introduction to JavaFiddle, written in Java style.
+ * Read it, if it's your first time using JavaFiddle.
+ */
+
+public class WelcomePage {
+    Project JavaFiddle = "Simple web-based IDE for Java language programming";
+    JavaFiddle.requirements = {"Internet-browser", 
+                               "Internet-connection", 
+                               "A bit of knowledge of Java Language"};
+    public void GetStarted() {
+        //If you are impatient to start, click "ADD PROJECT" on the left side of the page.
+    }
+    public List<String> getFeatures() {
+        List<String> list = new ArrayList();
+        list.add("Create, edit, compile and run projects based on JavaSE technology");
+        list.add("Share your code with other developers");
+        list.add("Revert changes to any of the previous commits");
+        //list.add("Import existing projects from GitHub or your file system"); //NOT SUPPORTED YET
+        //list.add("Download the project from the web-page to your local computer"); //NOT SUPPORTED YET
+        return list;
+    }
+
+    /**
+     * It is highly recommended to register in our system!
+     */
+    public List<String> restrictionsForGuest() {
+        List<String> list = new ArrayList();
+        list.add("No more than 1 project");
+        list.add("No more than 2 packages in project");
+        list.add("No more than 3 classes in a package");
+        list.add("Compilation time is limited by 5 seconds");
+        list.add("Execution time is limited by 5 seconds");
+        list.add("It's hard to save project for long-term editing");
+        return list;
+    }
+
+}</div>
+
+<script>
+    var editor = ace.edit("editor");
+     // editor.setTheme("ace/theme/monokai");
+    editor.getSession().setMode("ace/mode/java");
+</script>
+</body>
+</html>
