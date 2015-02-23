@@ -1,33 +1,35 @@
-CTRL + F 			Search text
-CTRL + H 			Replace
-CTRL + L 			Jump to Line
-CTRL + K 			Find next selection
-CTRL + P 			Go to matching bracket
-CTRL + SHIFT + K 	Find previous selection
-CTRL + F1			Fold selection
-ALT + K 			Find next selection
-ALT + Up 			Move line up
-ALT + Down			Move line down
-CTRL + Home			Go to start
-CTRL + End 			Go to end of file
-CTRL + Z 			undo
-CTRL + SHIFT + Z 	redo
-CTRL + Y 			redo
+CTRL + F 			      Search text
+CTRL + H 			      Replace
+CTRL + L 			      Jump to Line
+CTRL + K 			      Find next selection
+CTRL + P 			      Go to matching bracket
+CTRL + SHIFT + K 	  Find previous selection
+CTRL + F1			      Fold selection
+ALT + K 			      Find next selection
+CTRL + Space        Autocompletion
+ALT + Space         Autocompletion
+ALT + Up 			      Move line up
+ALT + Down			    Move line down
+CTRL + Home			    Go to start
+CTRL + End 			    Go to end of file
+CTRL + Z 			      undo
+CTRL + SHIFT + Z 	  redo
+CTRL + Y 			      redo
 CTRL + Left click   Add point for writing text
-CTRL + A 			Select all
-CTRL + S 			Save file
-ALT + Del 			Delete all from current position to the end of line
-CTRL + Del 			Delete to next word
-CTRL + D 			Delete line
-CTRL + C 			Copy
-CTRL + X 			Cut 
-CTRL + V 			Paste
-CTRL + /			Comment line
-CTRL + , 			Something unbelievable
-CTRL + ]			Increase tabulation of current line
-CTRL + [			Decrease tabulation of current line
-Tab 				Increase tabulation
-Shift + Tab 		Decrease tabulation
+CTRL + A 			      Select all
+CTRL + S 			      Save file
+ALT + Del 			    Delete all from current position to the end of line
+CTRL + Del 			    Delete to next word
+CTRL + D 			      Delete line
+CTRL + C 			      Copy
+CTRL + X 			      Cut 
+CTRL + V 			      Paste
+CTRL + /			      Comment line
+CTRL + , 			      Something unbelievable
+CTRL + ]			      Increase tabulation of current line
+CTRL + [			      Decrease tabulation of current line
+Tab 				        Increase tabulation
+Shift + Tab 		    Decrease tabulation
 
 
 More https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts
