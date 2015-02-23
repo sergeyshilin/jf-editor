@@ -2,8 +2,13 @@ CTRL + F 			Search text
 CTRL + H 			Replace
 CTRL + L 			Jump to Line
 CTRL + K 			Find next selection
+CTRL + P 			Go to matching bracket
 CTRL + SHIFT + K 	Find previous selection
 ALT + K 			Find next selection
+ALT + Up 			Move line up
+ALT + Down			Move line down
+CTRL + Home			Go to start
+CTRL + End 			Go to end of file
 CTRL + Z 			undo
 CTRL + SHIFT + Z 	redo
 CTRL + Y 			redo
@@ -22,3 +27,6 @@ CTRL + ]			Increase tabulation of current line
 CTRL + [			Decrease tabulation of current line
 Tab 				Increase tabulation
 Shift + Tab 		Decrease tabulation
+
+
+More https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts
