@@ -4,6 +4,7 @@ CTRL + L 			Jump to Line
 CTRL + K 			Find next selection
 CTRL + P 			Go to matching bracket
 CTRL + SHIFT + K 	Find previous selection
+CTRL + F1			Fold selection
 ALT + K 			Find next selection
 ALT + Up 			Move line up
 ALT + Down			Move line down
